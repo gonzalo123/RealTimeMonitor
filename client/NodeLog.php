@@ -191,4 +191,3 @@ class NodeLog
         $this->log($log);
     }
 }
-//http://stackoverflow.com/questions/277224/how-do-i-catch-a-php-fatal-error
