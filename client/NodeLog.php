@@ -17,7 +17,7 @@ class NodeLog
         return new self(is_null($host) ? self::$_defHost : $host, is_null($port) ? self::$_defPort : $port);
     }
 
-    function __construct($host, $port)
+    function __construct($host = null, $port = null)
     {
         $this->_host = $host;
         $this->_port = $port;
